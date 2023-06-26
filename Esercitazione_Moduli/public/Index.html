@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Form Ajax</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contact US !</h1>
+    <div>
+    <form>    
+<lebel for="name">Nome:</lebel>
+<input type="text" id="name" name="name" maxlength = "11">
+<br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+<br>
+<label for="message">Messaggio:</label>
+<textarea id="message" name="message"></textarea>
+<br>
+<h5>Vui iscriverti alla bla bla bla ?</h5>
+<input type="checkbox" id="iscriviti" name="iscriviti">
+<label for="si">Iscriviti</label>
+<br>
+<h5>Linguaggio preferito ?</h5>
+    <label for="lang">Language</label>
+    <select name="languages" id="lang">
+        <option value="none">none</option>
+      <option value="javascript">JavaScript</option>
+      <option value="php">PHP</option>
+      <option value="python">Python</option>
+    </select>
+    <br>
+    <br>
+    <br>
+<button type="submit">Invia</button>
+</form>
+</div>
+<div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
